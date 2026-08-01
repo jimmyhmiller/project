@@ -1,0 +1,290 @@
+registry version=1 projects-root="/Users/jimmyhmiller/Documents/Code/projects" {
+  experiment-notice "This is experimental software. It probably doesn't work."
+  project 5782216829 name="diff" jim-name="diff" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/diff"
+    last-edit "2026-08-01T19:33:15.498366293+00:00"
+  }
+  project 2792111428 name="hivemind" jim-name="hivemind" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/hivemind"
+    last-edit "2026-08-01T04:02:37.063300902+00:00"
+  }
+  project 8856221794 name="code-review" jim-name="code-review" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/code-review"
+    last-edit "2026-08-01T04:02:37.062456429+00:00"
+  }
+  project 1306817571 name="paredit-like" jim-name="paredit-like" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/paredit-like"
+    last-edit "2026-08-01T02:10:22.034185837+00:00"
+  }
+  project 7412269371 name="agent" jim-name="agent" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/agent"
+    last-edit "2026-07-31T21:23:41.481957159+00:00"
+  }
+  project 4095955976 name="aot-kit-gradual" jim-name="aot-kit-gradual" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/aot-kit-gradual"
+    last-edit "2026-07-30T23:36:44.476064760+00:00"
+  }
+  project 4367751567 name="writings" jim-name="writings" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/writings"
+    last-edit "2026-07-30T00:41:20.692862068+00:00"
+  }
+  project 7097154622 name="browser-auto" jim-name="browser-auto" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/browser-auto"
+    last-edit "2026-07-26T01:47:48.424539489+00:00"
+  }
+  project 8712673367 name="paper-audiobooks" jim-name="paper-audiobooks" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/paper-audiobooks"
+    last-edit "2026-07-19T14:45:48.066827474+00:00"
+  }
+  project 5560400429 name="native-widgets" jim-name="native-widgets" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/native-widgets"
+    last-edit "2026-07-19T04:09:59.573165792+00:00"
+  }
+  project 7874198762 name="minimal-optchain" jim-name="minimal-optchain" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/minimal-optchain"
+    last-edit "2026-07-16T14:34:49.765637230+00:00"
+  }
+  project 5745813583 name="virtual-cam" jim-name="virtual-cam" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/virtual-cam"
+    last-edit "2026-07-09T19:03:02.190705834+00:00"
+  }
+  project 4411485519 name="conversation-explorer" jim-name="conversation-explorer" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/conversation-explorer"
+    last-edit "2026-07-01T22:16:52.780089602+00:00"
+  }
+  project 4582212603 name="verify" jim-name="verify" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/verify"
+    last-edit "2026-06-28T18:13:32.782038654+00:00"
+  }
+  project 8452811619 name="clojure-electron-editor" jim-name="clojure-electron-editor" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/clojure-electron-editor"
+    last-edit "2026-06-26T21:00:54.023717015+00:00"
+  }
+  project 5502479949 name="age" jim-name="age" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/age"
+    last-edit "2026-06-21T04:35:32.531562429+00:00"
+  }
+  project 2915059741 name="beagle-live-code" jim-name="beagle-live-code" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/beagle-live-code"
+    last-edit "2026-06-17T19:21:09.066826940+00:00"
+  }
+  project 5627680255 name="headless-whiteboard" jim-name="headless-whiteboard" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/headless-whiteboard"
+    last-edit "2026-06-17T17:37:46.914536263+00:00"
+  }
+  project 4676572114 name="coil-mlir" jim-name="coil-mlir" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/coil-mlir"
+    last-edit "2026-06-15T18:17:33.780135065+00:00"
+  }
+  project 1421199736 name="mlir-lisp-design" jim-name="mlir-lisp-design" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/mlir-lisp-design"
+    last-edit "2026-06-15T18:12:27.206840861+00:00"
+  }
+  project 4834786008 name="coil-conventions" jim-name="coil-conventions" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/coil-conventions"
+    last-edit "2026-06-15T18:11:22.621730962+00:00"
+  }
+  project 4943034823 name="gatekeeper" jim-name="gatekeeper" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/gatekeeper"
+    last-edit "2026-06-15T03:04:26.815329343+00:00"
+  }
+  project 6263668901 name="bookshelf-cloud" jim-name="bookshelf-cloud" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/bookshelf-cloud"
+    last-edit "2026-06-15T03:04:26.736379255+00:00"
+  }
+  project 4676263900 name="axiom-reload" jim-name="axiom-reload" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/axiom-reload"
+    last-edit "2026-06-15T03:04:26.734509407+00:00"
+  }
+  project 4583118154 name="ailang-vercel-at" jim-name="ailang-vercel-at" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/ailang-vercel-at"
+    last-edit "2026-06-13T17:55:27.809692410+00:00"
+  }
+  project 8990327067 name="ailang-vercel-probe" jim-name="ailang-vercel-probe" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/ailang-vercel-probe"
+    last-edit "2026-06-13T05:43:40.761680902+00:00"
+  }
+  project 6861964084 name="funct" jim-name="funct" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/funct"
+    last-edit "2026-06-11T23:02:06.860013063+00:00"
+  }
+  project 4361817245 name="ion-layout" jim-name="ion-layout" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/ion-layout"
+    last-edit "2026-06-09T22:59:23.738524262+00:00"
+  }
+  project 3553112109 name="chatterbox-rewrite" jim-name="chatterbox-rewrite" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/chatterbox-rewrite"
+    last-edit "2026-06-08T19:08:25.589063180+00:00"
+  }
+  project 7649638212 name="editor-idea-experiments" jim-name="editor-idea-experiments" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/editor-idea-experiments"
+    last-edit "2026-06-08T14:19:35.721872248+00:00"
+  }
+  project 5391008406 name="simd-lang" jim-name="simd-lang" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/simd-lang"
+    last-edit "2026-06-07T06:14:38.334754050+00:00"
+  }
+  project 7534706632 name="partial-new" jim-name="partial-new" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/partial-new"
+    last-edit "2026-06-06T21:47:07.520072157+00:00"
+  }
+  project 4803374815 name="register-alloc" jim-name="register-alloc" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/register-alloc"
+    last-edit "2026-06-02T01:51:45.559970285+00:00"
+  }
+  project 3382647955 name="hifigan-rocm-bisect" jim-name="hifigan-rocm-bisect" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/hifigan-rocm-bisect"
+    last-edit "2026-05-25T16:23:35.278078324+00:00"
+  }
+  project 1834153013 name="foundation-wrapper" jim-name="foundation-wrapper" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/foundation-wrapper"
+    last-edit "2026-05-24T20:52:07.530658130+00:00"
+  }
+  project 5121267538 name="sidebar-notes" jim-name="sidebar-notes" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/sidebar-notes"
+    last-edit "2026-05-20T03:13:06.902701921+00:00"
+  }
+  project 1822093917 name="constrained-lang2" jim-name="constrained-lang2" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/constrained-lang2"
+    last-edit "2026-05-18T23:50:28.746831459+00:00"
+  }
+  project 8126980931 name="constrained-language" jim-name="constrained-language" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/constrained-language"
+    last-edit "2026-05-18T18:25:58.100054963+00:00"
+  }
+  project 4815976494 name="ease" jim-name="tracker" origin="filesystem" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/ease"
+    last-edit "2026-05-18T15:04:00.733285688+00:00"
+  }
+  project 3944221278 name="ideas" jim-name="ideas" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/ideas"
+    last-edit "2026-05-16T16:33:21.163694480+00:00"
+  }
+  project 4763562450 name="git-claude-hooks" jim-name="git-claude-hooks" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/git-claude-hooks"
+    last-edit "2026-05-13T03:22:59.806105131+00:00"
+  }
+  project 7848305367 name="quick-clojure-poc" jim-name="quick-clojure-poc" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/quick-clojure-poc"
+    last-edit "2026-05-11T12:22:23.924900067+00:00"
+  }
+  project 7820667332 name="controllable-futures" jim-name="controllable-futures" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/controllable-futures"
+    last-edit "2026-05-09T14:39:10.991538713+00:00"
+  }
+  project 2119559568 name="codex-experiments" jim-name="codex-experiments" origin="filesystem" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="potential" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/codex-experiments"
+    last-edit "2026-05-05T19:05:21.364807806+00:00"
+  }
+  project 20 name="ai-lang" jim-name="AI Lang" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/ai-lang"
+  }
+  project 55 name="Age" jim-name="Age" origin="jim" in-playground=false exists=false hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+  }
+  project 87 name="RemoteAgent" jim-name="Agent" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/code-remote/RemoteAgent"
+  }
+  project 2 name="beagle" jim-name="Beagle" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/beagle"
+  }
+  project 90 name="Browser Auto" jim-name="Browser Auto" origin="jim" in-playground=false exists=false hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+  }
+  project 54 name="calories" jim-name="Calories" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/calories"
+  }
+  project 85 name="Code Review" jim-name="Code Review" origin="jim" in-playground=false exists=false hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+  }
+  project 61 name="coil" jim-name="Coil" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/coil"
+  }
+  project 21 name="datalog" jim-name="Datalog" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/datalog"
+  }
+  project 64 name="linear-dependent-research" jim-name="Dependent" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/linear-dependent-research"
+  }
+  project 86 name="diff" jim-name="Diff" origin="jim" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/diffpack"
+  }
+  project 17 name="dynamic-toolkit" jim-name="Dynamic Toolkit" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/dynamic-toolkit"
+  }
+  project 15 name="flame-graph-viewer" jim-name="Flamegraph" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/flame-graph-viewer"
+  }
+  project 38 name="funct" jim-name="Funct" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/funct"
+  }
+  project 80 name="nebula" jim-name="GraphViewer" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/nebula"
+  }
+  project 97 name="coil-agent-harness" jim-name="Harness" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/coil-agent-harness"
+  }
+  project 3 name="heapster" jim-name="Heapster" origin="jim" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/heapster"
+  }
+  project 69 name="live-but-static" jim-name="Hot Reload" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/live-but-static"
+  }
+  project 23 name="js-ir" jim-name="JSIR" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/js-ir"
+  }
+  project 56 name="melior" jim-name="JSIR" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/open-source/melior"
+  }
+  project 4 name="keep-running" jim-name="Keep Running" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/keep-running"
+  }
+  project 10 name="host-switch" jim-name="Metaphysics" origin="jim" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/host-switch"
+  }
+  project 72 name="microlang" jim-name="Microlang" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/microlang"
+  }
+  project 75 name="lang-with-inspector" jim-name="OO Lang" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/lang-with-inspector"
+  }
+  project 65 name="next.js" jim-name="OXS" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/open-source/next.js"
+  }
+  project 26 name="partial2" jim-name="Partial" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/partial2"
+  }
+  project 45 name="beagle-zelda" jim-name="Playground" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/beagle-zelda"
+  }
+  project 53 name="jimmyhmiller.github.io" jim-name="Podcast" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/jimmyhmiller.github.io"
+  }
+  project 40 name="poll-app" jim-name="PollApp" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/poll-app"
+  }
+  project 92 name="portable-node" jim-name="Portable Node" origin="jim" in-playground=true exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/portable-node"
+  }
+  project 1 name="jim-editor" jim-name="Recursion" origin="jim" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/jim-editor"
+  }
+  project 28 name="rhai" jim-name="Rhai" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/open-source/rhai"
+  }
+  project 48 name="gc-rustlike-experiment" jim-name="Rust GC" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/gc-rustlike-experiment"
+  }
+  project 58 name="memscope" jim-name="Rust Memory Analyzer" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/memscope"
+  }
+  project 39 name="beagle" jim-name="Scratch" origin="jim" in-playground=false exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/beagle"
+  }
+  project 12 name="tensor-lang-experiment" jim-name="Tensor" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=true status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/tensor-lang-experiment"
+  }
+  project 9 name="terminal-box" jim-name="Website" origin="jim" in-playground=true exists=true hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
+    source "/Users/jimmyhmiller/Documents/Code/PlayGround/claude-experiments/terminal-box"
+  }
+  project 14 name="live-whiteboard-experiment" jim-name="Whiteboard" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/live-whiteboard-experiment"
+  }
+}

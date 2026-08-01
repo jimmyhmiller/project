@@ -1,0 +1,70 @@
+preflight generated-at="2026-08-01T20:39:28.596595+00:00" selected=27 passed=15 warnings=12 blocked=0 {
+  project 2792111428 name="hivemind" outcome="pass" files=5 bytes=53298 github="exists" {
+  }
+  project 8856221794 name="code-review" outcome="pass" files=24 bytes=203731 github="exists" {
+  }
+  project 1306817571 name="paredit-like" outcome="pass" files=74 bytes=300277 github="exists" {
+  }
+  project 4095955976 name="aot-kit-gradual" outcome="warning" files=29 bytes=1199015 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 7097154622 name="browser-auto" outcome="warning" files=197 bytes=2362281 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 5560400429 name="native-widgets" outcome="warning" files=20 bytes=141672 github="available" {
+    warning "1 potentially meaningful paths are excluded by merged ignore rules"
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 4411485519 name="conversation-explorer" outcome="pass" files=11 bytes=44447 github="available" {
+  }
+  project 4582212603 name="verify" outcome="pass" files=6 bytes=15669 github="exists" {
+  }
+  project 4943034823 name="gatekeeper" outcome="warning" files=33 bytes=224495 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 4361817245 name="ion-layout" outcome="warning" files=54 bytes=234850 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 5391008406 name="simd-lang" outcome="warning" files=47 bytes=922041 github="available" {
+    warning "3 potentially meaningful paths are excluded by merged ignore rules"
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 5121267538 name="sidebar-notes" outcome="pass" files=8 bytes=25770 github="available" {
+  }
+  project 4815976494 name="ease" outcome="pass" files=110 bytes=7980113 github="available" {
+  }
+  project 20 name="ai-lang" outcome="warning" files=6232 bytes=18596300 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 54 name="calories" outcome="pass" files=30 bytes=208645 github="available" {
+  }
+  project 61 name="coil" outcome="warning" files=1306 bytes=27938308 github="available" {
+    warning "1 potentially meaningful paths are excluded by merged ignore rules"
+  }
+  project 21 name="datalog" outcome="pass" files=89 bytes=1914105 github="available" {
+  }
+  project 64 name="linear-dependent-research" outcome="warning" files=152 bytes=1935580 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 15 name="flame-graph-viewer" outcome="pass" files=61 bytes=5521817 github="available" {
+  }
+  project 80 name="nebula" outcome="pass" files=43 bytes=520250 github="available" {
+  }
+  project 97 name="coil-agent-harness" outcome="warning" files=305 bytes=3104189 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 69 name="live-but-static" outcome="pass" files=71 bytes=836915 github="available" {
+  }
+  project 75 name="lang-with-inspector" outcome="pass" files=627 bytes=3620200 github="available" {
+  }
+  project 48 name="gc-rustlike-experiment" outcome="warning" files=240 bytes=55855789 github="available" {
+    warning "experiment README is missing the standard notice (migration will prepend it)"
+  }
+  project 58 name="memscope" outcome="pass" files=76 bytes=765436 github="available" {
+  }
+  project 12 name="tensor-lang-experiment" outcome="warning" files=127 bytes=7743549 github="available" {
+    warning "30 potentially meaningful paths are excluded by merged ignore rules"
+  }
+  project 14 name="live-whiteboard-experiment" outcome="pass" files=338 bytes=22279315 github="available" {
+  }
+}
