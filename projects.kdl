@@ -194,7 +194,7 @@ registry version=1 projects-root="/Users/jimmyhmiller/Documents/Code/projects" {
   }
   project 85 name="Code Review" jim-name="Code Review" origin="jim" in-playground=false exists=false hidden=true elevate=false visibility="public" readme=false experiment=false status="indexed" {
   }
-  project 61 name="coil" jim-name="Coil" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=true experiment=false status="migrated" {
+  project 61 name="coil" jim-name="Coil" origin="jim" in-playground=false exists=true hidden=false elevate=true visibility="public" readme=false experiment=false status="migrated" {
     source "/Users/jimmyhmiller/Documents/Code/projects/coil"
   }
   project 21 name="datalog" jim-name="Datalog" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=false status="migrated" {

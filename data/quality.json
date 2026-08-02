@@ -1,0 +1,4022 @@
+[
+  {
+    "project_id": 55,
+    "name": "Age",
+    "generated_at": "2026-08-02T03:33:24.110121+00:00",
+    "score": 0,
+    "grade": "at-risk",
+    "last_worked_at": null,
+    "readme_needs_update": true,
+    "summary": "5 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "block",
+        "detail": "missing: /Users/jimmyhmiller/Documents/Code/projects/Age"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Restore the project directory or fix its registry path.",
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 90,
+    "name": "Browser Auto",
+    "generated_at": "2026-08-02T03:33:24.730228+00:00",
+    "score": 0,
+    "grade": "at-risk",
+    "last_worked_at": null,
+    "readme_needs_update": true,
+    "summary": "5 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "block",
+        "detail": "missing: /Users/jimmyhmiller/Documents/Code/projects/Browser Auto"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Restore the project directory or fix its registry path.",
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 85,
+    "name": "Code Review",
+    "generated_at": "2026-08-02T03:33:25.122581+00:00",
+    "score": 0,
+    "grade": "at-risk",
+    "last_worked_at": null,
+    "readme_needs_update": true,
+    "summary": "5 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "block",
+        "detail": "missing: /Users/jimmyhmiller/Documents/Code/projects/Code Review"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Restore the project directory or fix its registry path.",
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 87,
+    "name": "RemoteAgent",
+    "generated_at": "2026-08-02T03:33:24.663960+00:00",
+    "score": 47,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 5502479949,
+    "name": "age",
+    "generated_at": "2026-08-02T03:33:23.011827+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 7412269371,
+    "name": "agent",
+    "generated_at": "2026-08-02T03:33:22.310377+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 20,
+    "name": "ai-lang",
+    "generated_at": "2026-08-02T03:33:24.108032+00:00",
+    "score": 88,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:45:57+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 4583118154,
+    "name": "ailang-vercel-at",
+    "generated_at": "2026-08-02T03:33:23.167037+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 8990327067,
+    "name": "ailang-vercel-probe",
+    "generated_at": "2026-08-02T03:33:23.180328+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 4095955976,
+    "name": "aot-kit-gradual",
+    "generated_at": "2026-08-02T03:33:22.423973+00:00",
+    "score": 100,
+    "grade": "excellent",
+    "last_worked_at": "2026-08-01T20:40:22.377692938+00:00",
+    "readme_needs_update": false,
+    "summary": "Looks ready for continued work.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": []
+  },
+  {
+    "project_id": 4676263900,
+    "name": "axiom-reload",
+    "generated_at": "2026-08-02T03:33:23.151413+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 39,
+    "name": "beagle",
+    "generated_at": "2026-08-02T03:33:27.536910+00:00",
+    "score": 92,
+    "grade": "excellent",
+    "last_worked_at": "2026-07-10T00:06:15+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 2,
+    "name": "beagle",
+    "generated_at": "2026-08-02T03:33:24.728421+00:00",
+    "score": 92,
+    "grade": "excellent",
+    "last_worked_at": "2026-07-10T00:06:15+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 2915059741,
+    "name": "beagle-live-code",
+    "generated_at": "2026-08-02T03:33:23.029387+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 45,
+    "name": "beagle-zelda",
+    "generated_at": "2026-08-02T03:33:27.167327+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 6263668901,
+    "name": "bookshelf-cloud",
+    "generated_at": "2026-08-02T03:33:23.138668+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 7097154622,
+    "name": "browser-auto",
+    "generated_at": "2026-08-02T03:33:22.713413+00:00",
+    "score": 100,
+    "grade": "excellent",
+    "last_worked_at": "2026-08-01T20:40:59.183689178+00:00",
+    "readme_needs_update": false,
+    "summary": "Looks ready for continued work.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": []
+  },
+  {
+    "project_id": 54,
+    "name": "calories",
+    "generated_at": "2026-08-02T03:33:25.120558+00:00",
+    "score": 88,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:46:32.310168548+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 3553112109,
+    "name": "chatterbox-rewrite",
+    "generated_at": "2026-08-02T03:33:23.257702+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 8452811619,
+    "name": "clojure-electron-editor",
+    "generated_at": "2026-08-02T03:33:22.995256+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 8856221794,
+    "name": "code-review",
+    "generated_at": "2026-08-02T03:33:22.251476+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:30:14.555820452+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 2119559568,
+    "name": "codex-experiments",
+    "generated_at": "2026-08-02T03:33:23.911537+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 61,
+    "name": "coil",
+    "generated_at": "2026-08-02T03:33:25.181028+00:00",
+    "score": 83,
+    "grade": "good",
+    "last_worked_at": "2026-08-02T03:30:57.260042889+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "6 uncommitted changes"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 97,
+    "name": "coil-agent-harness",
+    "generated_at": "2026-08-02T03:33:25.519275+00:00",
+    "score": 100,
+    "grade": "excellent",
+    "last_worked_at": "2026-08-01T20:50:03+00:00",
+    "readme_needs_update": false,
+    "summary": "Looks ready for continued work.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": []
+  },
+  {
+    "project_id": 4834786008,
+    "name": "coil-conventions",
+    "generated_at": "2026-08-02T03:33:23.091135+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 4676572114,
+    "name": "coil-mlir",
+    "generated_at": "2026-08-02T03:33:23.061787+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 1822093917,
+    "name": "constrained-lang2",
+    "generated_at": "2026-08-02T03:33:23.525524+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 8126980931,
+    "name": "constrained-language",
+    "generated_at": "2026-08-02T03:33:23.547586+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 7820667332,
+    "name": "controllable-futures",
+    "generated_at": "2026-08-02T03:33:23.795345+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 4411485519,
+    "name": "conversation-explorer",
+    "generated_at": "2026-08-02T03:33:22.937484+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:42:08.492812224+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 21,
+    "name": "datalog",
+    "generated_at": "2026-08-02T03:33:25.214850+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:47:44.050942308+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 86,
+    "name": "diff",
+    "generated_at": "2026-08-02T03:33:25.316526+00:00",
+    "score": 87,
+    "grade": "good",
+    "last_worked_at": "2026-08-02T03:19:54.099878701+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "23 uncommitted changes"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 5782216829,
+    "name": "diff",
+    "generated_at": "2026-08-02T03:33:22.095838+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 17,
+    "name": "dynamic-toolkit",
+    "generated_at": "2026-08-02T03:33:25.356799+00:00",
+    "score": 47,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 4815976494,
+    "name": "ease",
+    "generated_at": "2026-08-02T03:33:23.713819+00:00",
+    "score": 88,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:45:21.467160236+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 7649638212,
+    "name": "editor-idea-experiments",
+    "generated_at": "2026-08-02T03:33:23.276363+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 15,
+    "name": "flame-graph-viewer",
+    "generated_at": "2026-08-02T03:33:25.395276+00:00",
+    "score": 88,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:48:53.528723571+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 1834153013,
+    "name": "foundation-wrapper",
+    "generated_at": "2026-08-02T03:33:23.378694+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 6861964084,
+    "name": "funct",
+    "generated_at": "2026-08-02T03:33:23.200708+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 38,
+    "name": "funct",
+    "generated_at": "2026-08-02T03:33:25.431030+00:00",
+    "score": 87,
+    "grade": "good",
+    "last_worked_at": "2026-06-13T05:42:47.520891580+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "1 uncommitted change"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 4943034823,
+    "name": "gatekeeper",
+    "generated_at": "2026-08-02T03:33:23.121589+00:00",
+    "score": 88,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:43:04.248792033+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 48,
+    "name": "gc-rustlike-experiment",
+    "generated_at": "2026-08-02T03:33:27.457183+00:00",
+    "score": 88,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:51:50+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next."
+    ]
+  },
+  {
+    "project_id": 4763562450,
+    "name": "git-claude-hooks",
+    "generated_at": "2026-08-02T03:33:23.744793+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 5627680255,
+    "name": "headless-whiteboard",
+    "generated_at": "2026-08-02T03:33:23.046589+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 3,
+    "name": "heapster",
+    "generated_at": "2026-08-02T03:33:25.719834+00:00",
+    "score": 92,
+    "grade": "excellent",
+    "last_worked_at": "2026-07-16T22:29:07.042966905+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 3382647955,
+    "name": "hifigan-rocm-bisect",
+    "generated_at": "2026-08-02T03:33:23.361742+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 2792111428,
+    "name": "hivemind",
+    "generated_at": "2026-08-02T03:34:46.684813+00:00",
+    "score": 73,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T20:20:47+00:00",
+    "readme_needs_update": true,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 10,
+    "name": "host-switch",
+    "generated_at": "2026-08-02T03:33:26.027018+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 3944221278,
+    "name": "ideas",
+    "generated_at": "2026-08-02T03:33:23.728609+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 4361817245,
+    "name": "ion-layout",
+    "generated_at": "2026-08-02T03:33:23.233742+00:00",
+    "score": 100,
+    "grade": "excellent",
+    "last_worked_at": "2026-08-01T20:43:38.738316441+00:00",
+    "readme_needs_update": false,
+    "summary": "Looks ready for continued work.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": []
+  },
+  {
+    "project_id": 1,
+    "name": "jim-editor",
+    "generated_at": "2026-08-02T03:33:27.368882+00:00",
+    "score": 87,
+    "grade": "good",
+    "last_worked_at": "2026-07-31T21:12:03.027198871+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "49 uncommitted changes"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 53,
+    "name": "jimmyhmiller.github.io",
+    "generated_at": "2026-08-02T03:33:27.241265+00:00",
+    "score": 65,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-06-13T14:26:50+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 23,
+    "name": "js-ir",
+    "generated_at": "2026-08-02T03:33:25.923765+00:00",
+    "score": 47,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 4,
+    "name": "keep-running",
+    "generated_at": "2026-08-02T03:33:26.011413+00:00",
+    "score": 92,
+    "grade": "excellent",
+    "last_worked_at": "2026-05-21T02:44:11+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 75,
+    "name": "lang-with-inspector",
+    "generated_at": "2026-08-02T03:33:26.114366+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:51:12.122248808+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 64,
+    "name": "linear-dependent-research",
+    "generated_at": "2026-08-02T03:33:25.256981+00:00",
+    "score": 73,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T20:48:18.589999745+00:00",
+    "readme_needs_update": true,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 69,
+    "name": "live-but-static",
+    "generated_at": "2026-08-02T03:33:25.761573+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:50:38+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 14,
+    "name": "live-whiteboard-experiment",
+    "generated_at": "2026-08-02T03:33:27.662276+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:53:42+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 56,
+    "name": "melior",
+    "generated_at": "2026-08-02T03:33:25.971507+00:00",
+    "score": 87,
+    "grade": "good",
+    "last_worked_at": "2026-03-19T05:12:20.809236789+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "2 uncommitted changes"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 58,
+    "name": "memscope",
+    "generated_at": "2026-08-02T03:33:27.500046+00:00",
+    "score": 73,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T20:52:32.468664973+00:00",
+    "readme_needs_update": true,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 72,
+    "name": "microlang",
+    "generated_at": "2026-08-02T03:33:26.056539+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 7874198762,
+    "name": "minimal-optchain",
+    "generated_at": "2026-08-02T03:33:22.779026+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 1421199736,
+    "name": "mlir-lisp-design",
+    "generated_at": "2026-08-02T03:33:23.076090+00:00",
+    "score": 52,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 5560400429,
+    "name": "native-widgets",
+    "generated_at": "2026-08-02T03:33:22.765521+00:00",
+    "score": 100,
+    "grade": "excellent",
+    "last_worked_at": "2026-08-01T20:41:33.904564935+00:00",
+    "readme_needs_update": false,
+    "summary": "Looks ready for continued work.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": []
+  },
+  {
+    "project_id": 80,
+    "name": "nebula",
+    "generated_at": "2026-08-02T03:33:25.472862+00:00",
+    "score": 73,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T20:49:28.290943028+00:00",
+    "readme_needs_update": true,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 65,
+    "name": "next.js",
+    "generated_at": "2026-08-02T03:33:27.119028+00:00",
+    "score": 87,
+    "grade": "good",
+    "last_worked_at": "2026-08-02T03:28:43.949673137+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "13 uncommitted changes"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 8712673367,
+    "name": "paper-audiobooks",
+    "generated_at": "2026-08-02T03:33:22.732341+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 1306817571,
+    "name": "paredit-like",
+    "generated_at": "2026-08-02T03:33:22.287793+00:00",
+    "score": 100,
+    "grade": "excellent",
+    "last_worked_at": "2026-08-01T20:28:52+00:00",
+    "readme_needs_update": false,
+    "summary": "Looks ready for continued work.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": []
+  },
+  {
+    "project_id": 7534706632,
+    "name": "partial-new",
+    "generated_at": "2026-08-02T03:33:23.329087+00:00",
+    "score": 47,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 26,
+    "name": "partial2",
+    "generated_at": "2026-08-02T03:33:27.148284+00:00",
+    "score": 47,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 40,
+    "name": "poll-app",
+    "generated_at": "2026-08-02T03:33:27.282324+00:00",
+    "score": 65,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-06-14T14:39:43.697969839+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 92,
+    "name": "portable-node",
+    "generated_at": "2026-08-02T03:33:27.303469+00:00",
+    "score": 67,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": false,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 7848305367,
+    "name": "quick-clojure-poc",
+    "generated_at": "2026-08-02T03:33:23.771620+00:00",
+    "score": 55,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 4803374815,
+    "name": "register-alloc",
+    "generated_at": "2026-08-02T03:33:23.346147+00:00",
+    "score": 47,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "3 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit."
+    ]
+  },
+  {
+    "project_id": 28,
+    "name": "rhai",
+    "generated_at": "2026-08-02T03:33:27.413267+00:00",
+    "score": 87,
+    "grade": "good",
+    "last_worked_at": "2026-06-09T20:59:03.999755223+00:00",
+    "readme_needs_update": false,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "pass",
+        "detail": "README is present and has useful content"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "warning",
+        "detail": "2 uncommitted changes"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Capture the project's current purpose and next decisions in project.md."
+    ]
+  },
+  {
+    "project_id": 5121267538,
+    "name": "sidebar-notes",
+    "generated_at": "2026-08-02T03:33:23.509593+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:44:47.339877659+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 5391008406,
+    "name": "simd-lang",
+    "generated_at": "2026-08-02T03:33:23.309613+00:00",
+    "score": 73,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T20:44:13.004645038+00:00",
+    "readme_needs_update": true,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 12,
+    "name": "tensor-lang-experiment",
+    "generated_at": "2026-08-02T03:33:27.587786+00:00",
+    "score": 80,
+    "grade": "good",
+    "last_worked_at": "2026-08-01T20:53:07+00:00",
+    "readme_needs_update": true,
+    "summary": "1 follow-up item.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "pass",
+        "detail": "test files or a test target were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example."
+    ]
+  },
+  {
+    "project_id": 9,
+    "name": "terminal-box",
+    "generated_at": "2026-08-02T03:33:27.603368+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 4582212603,
+    "name": "verify",
+    "generated_at": "2026-08-02T03:33:22.969798+00:00",
+    "score": 73,
+    "grade": "needs-attention",
+    "last_worked_at": "2026-08-01T20:30:44.628800434+00:00",
+    "readme_needs_update": true,
+    "summary": "2 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README exists but is marked for revision or still looks like a placeholder"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "pass",
+        "detail": "project.md is present"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "pass",
+        "detail": "local Git repository is initialized"
+      },
+      {
+        "key": "working-tree",
+        "label": "Working tree",
+        "status": "pass",
+        "detail": "working tree is clean"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Refresh the README: explain what it does, how to run it, and what is next.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 5745813583,
+    "name": "virtual-cam",
+    "generated_at": "2026-08-02T03:33:22.797374+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  },
+  {
+    "project_id": 4367751567,
+    "name": "writings",
+    "generated_at": "2026-08-02T03:33:22.451478+00:00",
+    "score": 32,
+    "grade": "at-risk",
+    "last_worked_at": "2026-08-01T19:49:52+00:00",
+    "readme_needs_update": true,
+    "summary": "4 follow-up items.",
+    "checks": [
+      {
+        "key": "source",
+        "label": "Project directory",
+        "status": "pass",
+        "detail": "project directory exists"
+      },
+      {
+        "key": "readme",
+        "label": "README",
+        "status": "warning",
+        "detail": "README is missing"
+      },
+      {
+        "key": "project-doc",
+        "label": "Project notes",
+        "status": "warning",
+        "detail": "project.md is missing"
+      },
+      {
+        "key": "git",
+        "label": "Git repository",
+        "status": "block",
+        "detail": "local Git repository is missing"
+      },
+      {
+        "key": "tests",
+        "label": "Tests",
+        "status": "warning",
+        "detail": "no recognizable tests were found"
+      }
+    ],
+    "recommendations": [
+      "Write a README with purpose, setup, and an example.",
+      "Capture the project's current purpose and next decisions in project.md.",
+      "Initialize Git and make a reviewed baseline commit.",
+      "Add a small smoke test for the project's main behavior."
+    ]
+  }
+]

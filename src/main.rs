@@ -1,4 +1,5 @@
 use anyhow::{Context, Result, bail};
+use chrono::Utc;
 use clap::{Parser, Subcommand};
 use serde::{Deserialize, Serialize};
 use std::{
@@ -12,6 +13,7 @@ use walkdir::{DirEntry, WalkDir};
 
 mod migration;
 mod preflight;
+mod quality;
 
 const JIM_PROJECTS: &str = "/Users/jimmyhmiller/.jim/projects.json";
 const JIM_STATE: &str = "/Users/jimmyhmiller/.jim/projects";
@@ -37,6 +39,8 @@ enum Commands {
     },
     /// Audit every selected migration without changing projects or repositories.
     Preflight,
+    /// Run the local quality worker for every project, or one project by id.
+    Quality { id: Option<u64> },
     /// Resume and publish every selected project, stopping on the first failure.
     PublishAll {
         #[arg(long, default_value_t = 10)]
@@ -53,6 +57,9 @@ enum Commands {
         public: bool,
         #[arg(long)]
         readme: bool,
+        /// Scaffold and register locally without calling GitHub.
+        #[arg(long)]
+        local_only: bool,
     },
 }
 
@@ -122,6 +129,7 @@ fn main() -> Result<()> {
         }
         Commands::Dashboard { port } => dashboard(port)?,
         Commands::Preflight => preflight::run()?,
+        Commands::Quality { id } => quality::run(id)?,
         Commands::PublishAll { delay_seconds } => migration::publish_all(delay_seconds)?,
         Commands::Migrate { id } => match id {
             Some(id) => migration::preview(id)?,
@@ -132,7 +140,8 @@ fn main() -> Result<()> {
             private,
             public: _,
             readme,
-        } => new_project(&name, !private, readme)?,
+            local_only,
+        } => new_project(&name, !private, readme, local_only)?,
     }
     Ok(())
 }
@@ -378,6 +387,12 @@ fn dashboard(port: u16) -> Result<()> {
                 "application/json",
                 fs::read_to_string(decisions_path()).unwrap_or_else(|_| "[]".into()),
             ),
+            ("GET", "/api/quality") => (
+                200,
+                "application/json",
+                fs::read_to_string(root().join("data/quality.json"))
+                    .unwrap_or_else(|_| "[]".into()),
+            ),
             ("POST", "/api/projects") => {
                 let mut body = String::new();
                 req.as_reader().read_to_string(&mut body)?;
@@ -397,6 +412,41 @@ fn dashboard(port: u16) -> Result<()> {
                     ),
                 }
             }
+            ("POST", "/api/quality") => {
+                let mut request_body = String::new();
+                req.as_reader().read_to_string(&mut request_body)?;
+                let ids = serde_json::from_str::<QualityRequest>(&request_body)
+                    .ok()
+                    .and_then(|request| request.ids);
+                let projects = load()?;
+                let selected: Vec<Project> = projects
+                    .iter()
+                    .filter(|project| {
+                        ids.as_ref()
+                            .is_none_or(|wanted| wanted.contains(&project.id))
+                    })
+                    .cloned()
+                    .collect();
+                let new_reports = quality::analyze_all(&selected);
+                let mut all_reports: HashMap<u64, quality::QualityReport> =
+                    quality::load_reports()?
+                        .into_iter()
+                        .map(|report| (report.project_id, report))
+                        .collect();
+                for report in new_reports {
+                    all_reports.insert(report.project_id, report);
+                }
+                let mut reports: Vec<_> = all_reports.into_values().collect();
+                reports.sort_by(|a, b| a.name.cmp(&b.name));
+                match quality::write_reports(&reports) {
+                    Ok(_) => (200, "application/json", serde_json::to_string(&reports)?),
+                    Err(error) => (
+                        500,
+                        "application/json",
+                        format!("{{\"error\":{}}}", q(&error.to_string())),
+                    ),
+                }
+            }
             _ => (404, "text/plain", "Not found".into()),
         };
         let response = tiny_http::Response::from_string(body)
@@ -405,6 +455,11 @@ fn dashboard(port: u16) -> Result<()> {
         let _ = req.respond(response);
     }
     Ok(())
+}
+
+#[derive(Default, Deserialize)]
+struct QualityRequest {
+    ids: Option<Vec<u64>>,
 }
 
 pub(crate) fn prepend_experiment_notice(project: &Path) -> Result<()> {
@@ -421,10 +476,19 @@ pub(crate) fn prepend_experiment_notice(project: &Path) -> Result<()> {
     Ok(())
 }
 
-fn new_project(name: &str, public: bool, readme: bool) -> Result<()> {
+fn new_project(name: &str, public: bool, readme: bool, local_only: bool) -> Result<()> {
+    validate_project_name(name)?;
     let dest = PathBuf::from(PROJECTS_ROOT).join(name);
     if dest.exists() {
         bail!("destination already exists: {}", dest.display());
+    }
+    let mut projects = if decisions_path().exists() {
+        load()?
+    } else {
+        Vec::new()
+    };
+    if projects.iter().any(|project| project.name == name) {
+        bail!("a project named {name} is already in the registry");
     }
     fs::create_dir_all(&dest)?;
     run(Command::new("git")
@@ -437,12 +501,114 @@ fn new_project(name: &str, public: bool, readme: bool) -> Result<()> {
     if readme {
         fs::write(dest.join("README.md"), format!("# {name}\n"))?;
     }
+    write_scaffold_gitignore(&dest)?;
+    run(Command::new("git").args(["add", "."]).current_dir(&dest))?;
+    run(Command::new("git")
+        .args(["commit", "-m", "Initial project scaffold"])
+        .current_dir(&dest))?;
+
+    let mut id = synthetic_id(&dest.to_string_lossy());
+    while projects.iter().any(|project| project.id == id) {
+        id = id.wrapping_add(1);
+    }
+    let now = Utc::now().to_rfc3339();
+    let mut project = Project {
+        id,
+        jim_name: name.into(),
+        name: name.into(),
+        source: Some(dest.to_string_lossy().into_owned()),
+        in_playground: false,
+        exists: true,
+        hidden: false,
+        last_edit_at: Some(now.clone()),
+        last_focus_at: Some(now),
+        elevate: false,
+        visibility: if public { "public" } else { "private" }.into(),
+        readme: false,
+        experiment: false,
+        status: "scaffolded".into(),
+        origin: "scaffold".into(),
+    };
+    projects.push(project.clone());
+    write_all(&projects)?;
+
+    if !local_only {
+        let repo = format!("jimmyhmiller/{name}");
+        let visibility = if public { "--public" } else { "--private" };
+        run(Command::new("gh").args([
+            "repo",
+            "create",
+            &repo,
+            visibility,
+            "--source",
+            dest.to_str().context("project path is not valid UTF-8")?,
+            "--remote",
+            "origin",
+        ]))?;
+        project.status = "repo-created".into();
+        update_registered_project(&project)?;
+        run(Command::new("git")
+            .args(["push", "-u", "origin", "main"])
+            .current_dir(&dest))?;
+        project.status = "migrated".into();
+        update_registered_project(&project)?;
+    }
     println!(
-        "Created {} (requested GitHub visibility: {}). GitHub creation is intentionally separate until the first commit is ready.",
+        "Created and registered {} ({}).{}",
         dest.display(),
-        if public { "public" } else { "private" }
+        if public { "public" } else { "private" },
+        if local_only {
+            " GitHub was skipped (--local-only)."
+        } else {
+            " GitHub repository created and main pushed."
+        }
     );
     Ok(())
+}
+
+fn validate_project_name(name: &str) -> Result<()> {
+    let path = Path::new(name);
+    if name.is_empty()
+        || name == "."
+        || name == ".."
+        || path.components().count() != 1
+        || path.file_name().and_then(|value| value.to_str()) != Some(name)
+        || name.chars().any(char::is_whitespace)
+    {
+        bail!("project name must be one path-safe non-empty name: {name:?}");
+    }
+    Ok(())
+}
+
+fn write_scaffold_gitignore(dest: &Path) -> Result<()> {
+    let mut lines = vec![".DS_Store", ".claude/settings.local.json"];
+    if dest.join("Cargo.toml").exists() {
+        lines.push("/target/");
+    }
+    if dest.join("package.json").exists() {
+        lines.extend(["/node_modules/", "/dist/", "/.next/"]);
+    }
+    let path = dest.join(".gitignore");
+    let existing = fs::read_to_string(&path).unwrap_or_default();
+    let mut output = existing;
+    for line in lines {
+        if !output.lines().any(|existing| existing.trim() == line) {
+            output.push_str(line);
+            output.push('\n');
+        }
+    }
+    fs::write(path, output)?;
+    Ok(())
+}
+
+fn update_registered_project(project: &Project) -> Result<()> {
+    let mut projects = load()?;
+    let existing = projects
+        .iter_mut()
+        .find(|candidate| candidate.id == project.id)
+        .context("new project disappeared from registry")?;
+    *existing = project.clone();
+    write_all(&projects)
 }
 
 fn run(command: &mut Command) -> Result<()> {
@@ -454,4 +620,41 @@ fn run(command: &mut Command) -> Result<()> {
         bail!("command failed: {rendered}");
     }
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn project_names_are_path_safe() {
+        assert!(validate_project_name("new-project").is_ok());
+        assert!(validate_project_name("a/b").is_err());
+        assert!(validate_project_name("../outside").is_err());
+        assert!(validate_project_name("has space").is_err());
+    }
+
+    #[test]
+    fn registry_serializes_scaffold_origin() {
+        let project = Project {
+            id: 1,
+            jim_name: "demo".into(),
+            name: "demo".into(),
+            source: Some("/tmp/demo".into()),
+            in_playground: false,
+            exists: true,
+            hidden: false,
+            last_edit_at: None,
+            last_focus_at: None,
+            elevate: false,
+            visibility: "private".into(),
+            readme: false,
+            experiment: false,
+            status: "scaffolded".into(),
+            origin: "scaffold".into(),
+        };
+        let kdl = to_kdl(&[project]);
+        assert!(kdl.contains("origin=\"scaffold\""));
+        assert!(kdl.contains("status=\"scaffolded\""));
+    }
 }

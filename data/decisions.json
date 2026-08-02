@@ -878,7 +878,7 @@
     "last_focus_at": null,
     "elevate": true,
     "visibility": "public",
-    "readme": true,
+    "readme": false,
     "experiment": false,
     "status": "migrated",
     "origin": "jim"
