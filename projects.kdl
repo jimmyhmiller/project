@@ -287,4 +287,39 @@ registry version=1 projects-root="/Users/jimmyhmiller/Documents/Code/projects" {
   project 14 name="live-whiteboard-experiment" jim-name="Whiteboard" origin="jim" in-playground=false exists=true hidden=true elevate=true visibility="public" readme=true experiment=false status="migrated" {
     source "/Users/jimmyhmiller/Documents/Code/projects/live-whiteboard-experiment"
   }
+  project 2004644420 name="sweet-rewrite" jim-name="sweet-rewrite" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/sweet-rewrite"
+    last-edit "2026-08-02T18:07:28.694703+00:00"
+    last-focus "2026-08-02T18:07:28.694703+00:00"
+  }
+  project 8428326477 name="TheCount" jim-name="TheCount" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/TheCount"
+    last-edit "2026-08-04T13:32:46.617157+00:00"
+    last-focus "2026-08-04T13:32:46.617157+00:00"
+  }
+  project 5946629395 name="eink-manual" jim-name="eink-manual" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/eink-manual"
+    last-edit "2026-08-06T01:00:26.569751+00:00"
+    last-focus "2026-08-06T01:00:26.569751+00:00"
+  }
+  project 6500001878 name="2v-test" jim-name="2v-test" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="private" readme=false experiment=false status="scaffolded" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/2v-test"
+    last-edit "2026-08-11T00:15:32.232446+00:00"
+    last-focus "2026-08-11T00:15:32.232446+00:00"
+  }
+  project 6801395772 name="veneer" jim-name="veneer" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/veneer"
+    last-edit "2026-08-14T19:31:35.934834+00:00"
+    last-focus "2026-08-14T19:31:35.934834+00:00"
+  }
+  project 7753419144 name="scratchpad" jim-name="scratchpad" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="private" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/scratchpad"
+    last-edit "2026-08-16T19:06:00.677277+00:00"
+    last-focus "2026-08-16T19:06:00.677277+00:00"
+  }
+  project 4585594189 name="coil-experiments" jim-name="coil-experiments" origin="scaffold" in-playground=false exists=true hidden=false elevate=false visibility="public" readme=false experiment=false status="migrated" {
+    source "/Users/jimmyhmiller/Documents/Code/projects/coil-experiments"
+    last-edit "2026-08-20T00:58:12.026620+00:00"
+    last-focus "2026-08-20T00:58:12.026620+00:00"
+  }
 }

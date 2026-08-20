@@ -555,7 +555,7 @@ fn new_project(name: &str, public: bool, readme: bool, local_only: bool) -> Resu
     }
     println!(
         "Created and registered {} ({}).{}",
-        dest.display(),
+        format!("~/Documents/Code/projects/{name}"),
         if public { "public" } else { "private" },
         if local_only {
             " GitHub was skipped (--local-only)."
